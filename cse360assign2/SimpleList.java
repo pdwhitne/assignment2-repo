@@ -83,4 +83,17 @@ public static String toString(int[] list)
 {
 //return("index: "+list.indexOf(0));
 }
+public static void first(List<Integer> list) 
+{ 
+
+
+    // last element
+    if (list != null && !list.isEmpty()) { 
+        System.out.println("First element is: "
+                           + list.get(0)); 
+        System.out.println("Last element is: "
+                           + list.get(list.size() - 1)); 
+        return; 
+    } 
+} 
 }
