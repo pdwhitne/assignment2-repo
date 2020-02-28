@@ -1,6 +1,6 @@
 /**
  * @author p whitney #402 assign1 Junit class file
- *assn1
+ *assn2
  */
 package cse360assign2;
 
