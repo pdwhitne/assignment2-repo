@@ -22,6 +22,8 @@ public class SimpleList
   if (count == 0) 
   {
    list[count] = number;
+   numbers.ensureCapacity(15);
+   // increase capacity 15
    count++;
   } 
   else if (count < 10) 
@@ -31,6 +33,7 @@ public class SimpleList
    list[i + 1] = list[i];
    }
    list[0] = number;
+   numbers.trimToSize();
    count++;
   }
 }
